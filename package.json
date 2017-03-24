@@ -1,0 +1,31 @@
+{
+  "name": "express-architect-base-server",
+  "version": "1.0.0",
+  "description": "A base server for Node.js application which uses Express server with open-source Architect framework from Cloud9.",
+  "main": "server.js",
+  "dependencies": {
+    "architect": "^0.1.11",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhyeyMoliya/express-architect-base-server.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "architect",
+    "expressjs",
+    "dependency",
+    "injection"
+  ],
+  "author": "Dhyey Moliya <dhyeymoliya@gmail.com>",
+  "license": "Apache-2.0"
+}
